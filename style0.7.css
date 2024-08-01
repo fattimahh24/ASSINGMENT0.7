@@ -1,0 +1,177 @@
+.h1 {
+    font-style: oblique;
+    color: rgb(100, 100, 125);
+    list-style-type: none;
+    font-weight: 20px;
+    display: inline-flex
+}
+
+#main {
+    display: flex;
+    place-items: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    gap: 60px;
+}
+
+.main1 {
+    border: 3px solid rgb(49, 49, 88);
+    height: 300px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    place-content: center;
+    padding: 10px;
+}
+
+.one {
+    width: auto;
+    height: 40px;
+    background-color: rgb(49, 49, 88);
+    grid-column: 1/3;
+}
+
+.two {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(49, 49, 88);
+}
+
+.three {
+    width: 100px;
+    height: auto;
+    background-color: rgb(49, 49, 88);
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+.four {
+    width: auto;
+    height: auto;
+    background-color: rgb(49, 49, 88);
+    grid-row: 4/12;
+    grid-column: 1/3;
+}
+
+.five {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(49, 49, 88);
+}
+
+.six {
+    width: auto;
+    height: 30px;
+    background-color: rgb(49, 49, 88);
+    grid-column: 1/3;
+}
+
+.main2 {
+    border: 3px solid seagreen;
+    height: 300px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    place-content: center;
+    padding: 10px;
+}
+
+.item1 {
+    width: auto;
+    height: 40px;
+    background-color: coral;
+    grid-column: 1/3;
+}
+
+.item2 {
+    width: 100px;
+    height: 40px;
+    background-color: coral;
+}
+
+.item3 {
+    width: 100px;
+    height: auto;
+    background-color: coral;
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+.item4 {
+    width: auto;
+    height: auto;
+    background-color: coral;
+    grid-row: 4/12;
+    grid-column: 1/3;
+}
+
+.item5 {
+    width: 100px;
+    height: 40px;
+    background-color: coral;
+}
+
+.item6 {
+    width: auto;
+    height: 30px;
+    background-color: coral;
+    grid-column: 1/3;
+}
+
+.main3 {
+    border: 3px solid red;
+    height: 300px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    place-content: center;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.item11 {
+    width: auto;
+    height: 40px;
+    background-color: rgb(49, 49, 88);
+    grid-column: 1/3;
+}
+
+.item22 {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(49, 49, 88);
+}
+
+.item33 {
+    width: 100px;
+    height: auto;
+    background-color: rgb(49, 49, 88);
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+.item44 {
+    width: auto;
+    height: auto;
+    background-color: rgb(49, 49, 88);
+    grid-row: 4/12;
+    grid-column: 1/3;
+}
+
+.item55 {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(49, 49, 88);
+}
+
+.item66 {
+    width: auto;
+    height: 30px;
+    background-color: rgb(49, 49, 88);
+    grid-column: 1/3;
+}
